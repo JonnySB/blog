@@ -1,4 +1,12 @@
 venv
 .python-version
+
+# Python temp files
 **/__pycache__
-/pycache/*
+__pycache__/
+*.py[cod]
+*$py.class.pyc
+*.pyc
+*/*/*/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
