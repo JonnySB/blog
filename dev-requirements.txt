@@ -4,22 +4,12 @@
 #
 #    pip-compile dev-requirements.in
 #
-asgiref==3.8.1
-    # via
-    #   django
-    #   django-stubs
 asttokens==2.4.1
     # via stack-data
 decorator==5.1.1
     # via ipython
-django==5.0.6
-    # via
-    #   django-stubs
-    #   django-stubs-ext
-django-stubs==5.0.2
+django-types==0.19.1
     # via -r dev-requirements.in
-django-stubs-ext==5.0.2
-    # via django-stubs
 executing==2.0.1
     # via stack-data
 ipython==8.26.0
@@ -42,19 +32,13 @@ pygments==2.18.0
     # via ipython
 six==1.16.0
     # via asttokens
-sqlparse==0.5.0
-    # via django
 stack-data==0.6.3
     # via ipython
 traitlets==5.14.3
     # via
     #   ipython
     #   matplotlib-inline
-types-pyyaml==6.0.12.20240311
-    # via django-stubs
-typing-extensions==4.12.2
-    # via
-    #   django-stubs
-    #   django-stubs-ext
+types-psycopg2==2.9.21.20240417
+    # via django-types
 wcwidth==0.2.13
     # via prompt-toolkit
