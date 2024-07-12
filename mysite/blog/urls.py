@@ -3,7 +3,7 @@ from . import views
 
 app_name = 'blog'
 
-urlpatters = [
+urlpatterns = [
     path("", views.post_list, name="post_list"),
-    path("<int:id>/", views.get_object_or_404, name="post_details"),
+    path("<int:id>/", views.post_detail, name="post_details"),
 ]
