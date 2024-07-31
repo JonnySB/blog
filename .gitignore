@@ -16,3 +16,4 @@ __pycache__/
 
 .env
 start_postgres.sh
+mysite_data.json
